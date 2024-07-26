@@ -8,14 +8,14 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className="bg-black p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-2xl">MyLogo</div>
+        <a href="/Browser" className="text-white text-xl">Browser</a>
+        <a href="/All-Access" className="text-white text-xl">All-Access</a>
         <div className={`md:flex ${isOpen ? 'block' : 'hidden'} w-full md:w-auto`}>
-          <a href="/" className="block md:inline-block text-white py-2 px-4">Home</a>
-          <a href="/about" className="block md:inline-block text-white py-2 px-4">About</a>
-          <a href="/services" className="block md:inline-block text-white py-2 px-4">Services</a>
-          <a href="/contact" className="block md:inline-block text-white py-2 px-4">Contact</a>
+          <a href="/Sign up" className="block md:inline-block text-lg text-white py-2 px-4">Sign up</a>
+          <a href="/Log in" className="block md:inline-block text-lg text-white py-2 px-4">Log in</a>
         </div>
         <div className="md:hidden">
           <button onClick={toggleMenu} className="text-white text-3xl">
