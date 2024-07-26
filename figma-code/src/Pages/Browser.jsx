@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Contact = () => {
+const Browser = () => {
   return <div className="p-4"></div>;
 };
 
-export default Contact;
+export default Browser;
