@@ -14,10 +14,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black p-4 relative">
+    <nav className="bg-gray p-4 relative">
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center text-white text-2xl">
-          <TbPentagonFilled className="mr-2 text-4xl" />
+          <TbPentagonFilled className="mr-2 text-5xl" />
           <a href="/Browser" className="text-white mr-4 p-8 text-xl">Browser</a>
           <a href="/All-Access" className="text-white p-8 text-xl">All-Access</a>
           <div className="ml-4">
