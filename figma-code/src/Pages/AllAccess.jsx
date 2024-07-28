@@ -10,9 +10,9 @@ const AllAccess = () => {
   ];
 
   return (
-    <div className="bg-hero-home bg-cover bg-center">
+    <div className="bg-hero-home relative bg-cover bg-center">
       <h1 className="text-white mt-8 p-32 flex-nowrap flex items-center justify-center  text-6xl font-bold">
-        9,498 curated design resources to <br />
+        9,498 curated design resources to <br/>
         speed up your creative workflow.
       </h1>
 
